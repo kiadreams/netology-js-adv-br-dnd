@@ -4,14 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Trello</title>
 </head>
 <body>
-<h2>Example</h2>
-<form class="form-example">
-  <button type="button" data-title="Кнопка" data-text="А здесь размещается какой-то текстовый контент к выбранному элементу" class="btn">Click to toggle
-    popover
-  </button>
-</form>
+<header>
+  <h1>Trello</h1>
+</header>
+<main class="columns">
+  <section class="columns__column todo">
+    <div class="column__header">
+      <h2 class="column__title">todo</h2>
+      <div class="column__menu"></div>
+    </div>
+    <div class="column__tasks"></div>
+    <form>
+      <input type="button" value="">
+      <label>Add another card</label>
+    </form>
+  </section>
+  <section class="columns__column progress">
+    <div class="column__header">
+      <h2 class="column__title">in progress</h2>
+      <div class="column__menu"></div>
+    </div>
+    <div class="column__tasks"></div>
+    <form class="column__form">
+      <input type="button" value="">
+      <label>Add another card</label>
+    </form>
+  </section>
+  <section class="columns__column done">
+    <div class="column__header">
+      <h2 class="column__title">done</h2>
+      <div class="column__menu"></div>
+    </div>
+    <div class="column__tasks"></div>
+    <form class="column__form">
+      <input type="button" value="">
+      <label>Add another card</label>
+    </form>
+  </section>
+</main>
 </body>
 </html>

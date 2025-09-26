@@ -7,13 +7,14 @@ module.exports = merge(common, {
   mode: 'development',
   // Control how source maps are generated
   devtool: 'inline-source-map',
-
+  target: "web",
   // Spin up a server for quick development
   devServer: {
     port: 9000,
     historyApiFallback: true,
     open: true,
     compress: true,
+    hot: true,
   },
 
   plugins: [
