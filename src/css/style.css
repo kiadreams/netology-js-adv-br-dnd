@@ -2,7 +2,6 @@ body {
   font-family: "Charlie Display", sans-serif;
 }
 
-
 h1 {
   margin: 0 auto;
   max-width: 1140px;
@@ -52,4 +51,28 @@ h1 {
 
 .column__tasks {
   flex-grow: 1;
+}
+
+.form__button {
+  background-color: rgb(240, 240, 240);
+  color: rgb(150, 150, 150);
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.form__button-label {
+  color: rgb(150, 150, 150);
+  font-size: 20px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.card {
+  display: inline-block;
+  box-sizing: border-box;
+  resize: none;
+  border-radius: 5px;
+  border: rgb(200, 200, 200) 1px solid;
+  width: 100%;
 }
